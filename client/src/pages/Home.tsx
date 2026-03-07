@@ -155,12 +155,12 @@ export default function Home() {
             <div className="flex items-center gap-2">
               <MapPin size={18} /> Islamabad, Pakistan
             </div>
-            <div className="flex items-center gap-2">
-              <Linkedin size={18} /> LinkedIn
-            </div>
-            <div className="flex items-center gap-2">
-              <Github size={18} /> GitHub
-            </div>
+          <a href="https://www.linkedin.com/in/safi-ullah-khan-85395528b/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-cyan-400 transition-colors">
+         <Linkedin size={18} /> LinkedIn
+        </a>
+        <a href="https://github.com/Safiullahgithub" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-cyan-400 transition-colors">
+        <Github size={18} /> GitHub
+          </a>
           </div>
         </div>
       </section>
