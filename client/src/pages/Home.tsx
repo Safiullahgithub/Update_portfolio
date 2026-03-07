@@ -333,17 +333,17 @@ export default function Home() {
             I'm always interested in discussing cybersecurity, threat detection, and security operations.
           </p>
           
-          <div className="flex flex-wrap justify-center gap-6 mb-12">
-            <a href="mailto:safi.cloudsec@gmail.com" className="flex items-center gap-2 px-6 py-3 bg-cyan-400 text-slate-950 rounded-lg font-semibold hover:bg-cyan-300 transition-colors">
-              <Mail size={20} /> Email
-            </a>
-            <a href="#" className="flex items-center gap-2 px-6 py-3 border border-cyan-400 text-cyan-400 rounded-lg font-semibold hover:bg-cyan-400/10 transition-colors">
-              <Linkedin size={20} /> LinkedIn
-            </a>
-            <a href="#" className="flex items-center gap-2 px-6 py-3 border border-cyan-400 text-cyan-400 rounded-lg font-semibold hover:bg-cyan-400/10 transition-colors">
-              <Github size={20} /> GitHub
-            </a>
-          </div>
+      <div className="flex flex-wrap justify-center gap-6 mb-12">
+       <a href="mailto:safi.cloudsec@gmail.com" className="flex items-center gap-2 px-6 py-3 bg-cyan-400 text-slate-950 rounded-lg font-semibold hover:bg-cyan-300 transition-colors">
+       <Mail size={20} /> Email
+   </a>
+     <a href="https://www.linkedin.com/in/safi-ullah-khan-85395528b/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 px-6 py-3 border border-cyan-400 text-cyan-400 rounded-lg font-semibold hover:bg-cyan-400/10 transition-colors">
+    <Linkedin size={20} /> LinkedIn
+     </a>
+     <a href="https://github.com/Safiullahgithub" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 px-6 py-3 border border-cyan-400 text-cyan-400 rounded-lg font-semibold hover:bg-cyan-400/10 transition-colors">
+    <Github size={20} /> GitHub
+     </a>
+    </div>
           
           <div className="text-slate-400 text-sm">
             <p>Passport: YJ4159381</p>
